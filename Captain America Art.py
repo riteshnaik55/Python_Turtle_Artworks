@@ -1,0 +1,55 @@
+#Captain America art
+from turtle import *
+bgcolor('#00910c')
+
+pensize(3)
+fillcolor('#d60202')    
+begin_fill()
+circle(100)
+end_fill()
+
+up()
+goto(0,20)
+down()
+fillcolor('#e9e3e3')    
+begin_fill()
+circle(80)
+end_fill()
+
+up()
+goto(0,40)
+down()
+fillcolor('#d60202')    
+begin_fill()
+circle(60)
+end_fill()
+
+up()
+goto(0,60)
+down()
+fillcolor('#111fe2')    
+begin_fill()
+circle(40)
+end_fill()
+
+up()
+goto(0,140)
+down()
+color('#e9e3e3')        
+begin_fill()
+right(75)
+forward(78)
+ 
+for i in range(4):
+    right(144)
+    forward(78)
+end_fill()
+
+color('#000')           
+speed(1)
+up()
+goto(-200,-120)
+down()
+write("I am not looking for forgiveness.\nAnd I'm way past asking for permission.\n\t\t\t -Steve Rogers",font=('Arial',18,'bold'))
+hideturtle()
+done()
